@@ -11,10 +11,10 @@
             <Label Text="今月使った金額は〇円です" 
                    FontSize="Large"
                    HorizontalOptions="Center"/>
-            <Label Text="給料日まであと〇円使えま"
+            <Label Text="給料日まであと〇円使えます"
                    FontSize="Large"
                    HorizontalOptions="Center"/>
-            <Label Text="この金額で〇が買えます"
+            <Label Text="目標金額までの達成率：〇〇％"
                    FontSize="Large"
                    HorizontalOptions="Center"/>
             <controls:Calendar x:Name="calendarrr"

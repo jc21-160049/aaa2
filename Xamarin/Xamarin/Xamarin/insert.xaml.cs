@@ -11,7 +11,7 @@ using Xamarin.Forms.Xaml;
 namespace Xamarin
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class insert : CarouselPage
+	public partial class insert : TabbedPage
 	{
 		public insert (List<DateTime> dt)
 		{
@@ -29,7 +29,10 @@ namespace Xamarin
             b7.Clicked += b7Clicked;
             b8.Clicked += b8Clicked;
             b9.Clicked += b9Clicked;
+
+            var entry = new Entry { Keyboard = Keyboard.Numeric };
         }
+
 
         private void b1Clicked(object sender, EventArgs e)
         {

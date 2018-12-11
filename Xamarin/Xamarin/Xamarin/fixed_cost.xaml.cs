@@ -15,6 +15,26 @@ namespace Xamarin
 		public fixed_cost ()
 		{
 			InitializeComponent ();
-		}
-	}
+
+            var komokuList = new List<string>
+        {
+            "食費",
+            "日用品",
+            "交通費",
+            "医療費",
+            "光熱費",
+            "美容衣服",
+            "趣味",
+            "酒タバコ",
+            "その他",
+        };
+
+            foreach (var item in komokuList)
+            {
+                this.komoku.Items.Add(item);
+            }
+
+
+        }
+    }
 }

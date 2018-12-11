@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
               xmlns:viewModel="clr-namespace:Xamarin;"
               xmlns:local="clr-namespace:Xamarin"
               x:Class="Xamarin.insert">
 
-    <ContentPage>
+    <ContentPage Title="金額入力">
         <StackLayout>
 
 
@@ -17,8 +17,11 @@
             
             
             <Entry Placeholder="金額"
+                   Keyboard="Numeric"
                FontSize="35"
                VerticalOptions="StartAndExpand"/>
+            
+            
             <Label Text="項目を選んでください"
                FontSize="35"
                x:Name="koumoku"></Label>
@@ -88,4 +91,4 @@
 
     <local:insert2/>
 
-</CarouselPage>
+</TabbedPage>
