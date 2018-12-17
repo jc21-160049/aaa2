@@ -7,6 +7,11 @@
             <Label Text="よく使う金額設定"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Entry Placeholder="金額" />
+            
+            <Picker Title="項目" 
+                    x:Name="komoku"/>
+            <Button Text="ボタンに金額を登録" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -5,9 +5,128 @@
              Title="よく使う金額">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="よく使う金"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="ボタンを選択してください"
+                        FontSize="25"/>
+
+            <StackLayout Orientation="Horizontal"
+                 HorizontalOptions="Center">
+
+                <Button Text="100"
+                    FontSize="25"
+                    HorizontalOptions="Start"
+                    WidthRequest="132"
+                    x:Name="b1"/>
+                <Button Text="200"
+                    FontSize="25"
+                    HorizontalOptions="End"
+                    WidthRequest="132"
+                    x:Name="b2"/>
+                <Button Text="300"
+                    FontSize="25"
+                    HorizontalOptions="End"
+                    WidthRequest="132"
+                    x:Name="b3"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"
+                 HorizontalOptions="Center">
+                <Button Text="400"
+                    FontSize="25"
+                    HorizontalOptions="Start"
+                    WidthRequest="132"
+                    x:Name="b4"/>
+                <Button Text="500"
+                    FontSize="25"
+                    HorizontalOptions="End"
+                    WidthRequest="132"
+                    x:Name="b5"/>
+                <Button Text="600"
+                    FontSize="25"
+                    HorizontalOptions="End"
+                    WidthRequest="132"
+                    x:Name="b6"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"
+                 HorizontalOptions="Center">
+                <Button Text="700"
+                    FontSize="25"
+                    HorizontalOptions="Start"
+                    WidthRequest="132"
+                    x:Name="b7"/>
+                <Button Text="800"
+                    FontSize="25"
+                    HorizontalOptions="End"
+                    WidthRequest="132"
+                    x:Name="b8"/>
+                <Button Text="900"
+                    FontSize="25"
+                    HorizontalOptions="End"
+                    WidthRequest="132"
+                    x:Name="b9"/>
+            </StackLayout>
+            <Label Text="項目を選択してください"
+                        FontSize="35"/>
+            <StackLayout Orientation="Horizontal"
+                 HorizontalOptions="Center">
+
+                <Button Text="食費"
+                    FontSize="25"
+                    HorizontalOptions="Start"
+                    WidthRequest="132"
+                    x:Name="b10"/>
+                <Button Text="日用品"
+                    FontSize="25"
+                    HorizontalOptions="End"
+                    WidthRequest="132"
+                    x:Name="b20"/>
+                <Button Text="交通費"
+                    FontSize="25"
+                    HorizontalOptions="End"
+                    WidthRequest="132"
+                    x:Name="b30"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"
+                 HorizontalOptions="Center">
+                <Button Text="医療費"
+                    FontSize="25"
+                    HorizontalOptions="Start"
+                    WidthRequest="132"
+                    x:Name="b40"/>
+                <Button Text="光熱費"
+                    FontSize="25"
+                    HorizontalOptions="End"
+                    WidthRequest="132"
+                    x:Name="b50"/>
+                <Button Text="美容衣服"
+                    FontSize="25"
+                    HorizontalOptions="End"
+                    WidthRequest="132"
+                    x:Name="b60"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"
+                 HorizontalOptions="Center">
+                <Button Text="趣味"
+                    FontSize="25"
+                    HorizontalOptions="Start"
+                    WidthRequest="132"
+                    x:Name="b70"/>
+                <Button Text="酒たばこ"
+                    FontSize="25"
+                    HorizontalOptions="End"
+                    WidthRequest="132"
+                    x:Name="b80"/>
+                <Button Text="その他"
+                    FontSize="25"
+                    HorizontalOptions="End"
+                    WidthRequest="132"
+                    x:Name="b90"/>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Center">
+                <Button Text="登録する"
+                    x:Name="touroku"
+                    WidthRequest="400"
+                    FontSize="35"></Button>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

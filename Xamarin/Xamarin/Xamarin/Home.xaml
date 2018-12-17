@@ -39,13 +39,21 @@
             <DatePicker />
             <Label Text="とりあえず詳細"
                        FontSize="50" VerticalOptions="Center"/>
-            <Button Text="1day" HorizontalOptions="Center" />
-            <Button Text="1week" HorizontalOptions="Center" />
-            <Button Text="1month" HorizontalOptions="Center" />
-
+            <StackLayout Orientation="Horizontal"
+                 HorizontalOptions="Center">
+                <Button Text="1day"   FontSize="25"
+                    HorizontalOptions="Start"
+                    WidthRequest="132" />
+                <Button Text="1week"   FontSize="25"
+                    HorizontalOptions="End"
+                    WidthRequest="132"/>
+                <Button Text="1month" 
+                     FontSize="25"
+                    HorizontalOptions="End"
+                    WidthRequest="132"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage>
-
     <ContentPage Title="設定">
         <StackLayout>
             <Label Text="とりあえず設定画面" />
