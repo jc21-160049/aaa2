@@ -91,6 +91,10 @@ namespace Xamarin
         {
             await this.Navigation.PushModalAsync(new fixed_cost());
         }
+        private async void Button_Clicked_3(object sender, EventArgs e)
+        {
+            await this.Navigation.PushModalAsync(new goal_money());
+        }
 
     }
 

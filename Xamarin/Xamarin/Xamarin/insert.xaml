@@ -14,14 +14,14 @@
             <Label x:Name="aaa"
                FontSize="35"
                VerticalOptions="Start"></Label>
-            
-            
+
+
             <Entry Placeholder="金額"
                    Keyboard="Numeric"
                FontSize="35"
                VerticalOptions="StartAndExpand"/>
-            
-            
+
+
             <Label Text="項目を選んでください"
                FontSize="35"
                x:Name="koumoku"></Label>

@@ -4,7 +4,8 @@
              x:Class="Xamarin.often_use">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="よく使う金額設定"
+            
+                <Label Text="頻繁に使う金額をあらかじめボタンとして設定し、入力を簡易にできます"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
             <Entry Placeholder="金額" />

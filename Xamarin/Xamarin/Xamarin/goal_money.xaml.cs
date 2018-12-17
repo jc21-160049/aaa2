@@ -10,14 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace Xamarin
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class insert2 : ContentPage
+	public partial class goal_money : ContentPage
 	{
-        public static List<DateTime> sssList = new List<DateTime>();
-        public insert2 (List<DateTime> dt)
+		public goal_money ()
 		{
 			InitializeComponent ();
-            insert2.sssList = dt;
-            aaa.Text = dt[0].ToString("日付：yyyy年MM月dd日");
-        }
+		}
 	}
 }

@@ -18,15 +18,11 @@ namespace Xamarin
 
             var komokuList = new List<string>
         {
-            "食費",
-            "日用品",
-            "交通費",
-            "医療費",
+
+            "通信費",
             "光熱費",
-            "美容衣服",
-            "趣味",
-            "酒タバコ",
-            "その他",
+            "保険関係",
+            
         };
 
             foreach (var item in komokuList)

@@ -5,6 +5,10 @@
              Title="よく使う金額">
     <ContentPage.Content>
         <StackLayout>
+            <Label x:Name="aaa"
+               FontSize="35"
+               VerticalOptions="Start"></Label>
+            
             <Label Text="ボタンを選択してください"
                         FontSize="25"/>
 
