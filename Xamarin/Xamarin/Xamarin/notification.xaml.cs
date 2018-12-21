@@ -16,5 +16,12 @@ namespace Xamarin
 		{
 			InitializeComponent ();
 		}
-	}
+        
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Button tb = new Button();
+            tb.Text = "追加された";
+            AbsoluteLayout          
+        }
+    }
 }

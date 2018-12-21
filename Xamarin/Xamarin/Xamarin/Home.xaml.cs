@@ -12,6 +12,7 @@ namespace Xamarin
 {
     public partial class Home : TabbedPage
     {
+        public static List<DateTime> ddd;
         public Home()
         {
             InitializeComponent();
@@ -73,6 +74,7 @@ namespace Xamarin
         //カレンダー日付クリック
         private async void OnDateClick(object sender, EventArgs e)
         {
+            Home.ddd = calendarrr.SelectedDates;
             await this.Navigation.PushModalAsync(new insert(calendarrr.SelectedDates));
         }
 

@@ -7,7 +7,7 @@
     <ContentPage Title ="ホーム">
 
         <StackLayout>
-            <Label Text="とりあえずの初期画面" />
+            <Label Text="初期画面" />
             <Label Text="今月使った金額は〇円です" 
                    FontSize="Large"
                    HorizontalOptions="Center"/>

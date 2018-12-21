@@ -13,11 +13,14 @@ namespace Xamarin
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class insert : TabbedPage
 	{
+        public static List<DateTime> f1 = new List<DateTime>();
+        //public static string f1;
 		public insert (List<DateTime> dt)
 		{
 			InitializeComponent ();
 
             aaa.Text = dt[0].ToString("日付：yyyy年MM月dd日");
+            f1 = dt;
 
             //string1.Text = "金額：";
             b1.Clicked += b1Clicked;

@@ -3,12 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Xamarin.notification">
     <ContentPage.Content>
-        <StackLayout>
+        <AbsoluteLayout x:Name="ab">
+            <StackLayout>
             <Label Text="Welcome to 通知設定"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
             <Switch IsToggled="false" />
+            <Button Text="あ" 
+                    Clicked="Button_Clicked"/>
             <TimePicker />
         </StackLayout>
+        </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

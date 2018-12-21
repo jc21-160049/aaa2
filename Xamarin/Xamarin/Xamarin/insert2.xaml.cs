@@ -13,11 +13,10 @@ namespace Xamarin
 	public partial class insert2 : ContentPage
 	{
         public static List<DateTime> sssList = new List<DateTime>();
-        public insert2 (List<DateTime> dt)
+        public insert2 ()
 		{
 			InitializeComponent ();
-            insert2.sssList = dt;
-            aaa.Text = dt[0].ToString("日付：yyyy年MM月dd日");
+            aaa.Text = Home.ddd[0].ToString("日付：yyyy年MM月dd日"); ;
         }
-	}
+    }
 }
